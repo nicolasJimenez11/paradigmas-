@@ -1,4 +1,4 @@
-def suc(numeroN):
+def suc(numeroN):'''indica a Python que una nueva función está siendo definida'''
     return numeroN+1
 def ant(numeroN):
     return numeroN-1 if numeroN>0 else 0 #lo uso para evitar los negativos en la resta y division
